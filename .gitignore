@@ -1,0 +1,11 @@
+**/*.vscode/
+
+**/node_modules/
+
+.pnpm-debug.log
+_tmp*
+dist/
+build/
+*.sqlite
+.env
+*.log
