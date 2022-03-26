@@ -13,6 +13,6 @@ export class AppController {
   })
   async login(@Request() req) {
     req.session.user = req.user;
-    return null as AType;
+    return null;
   }
 }
